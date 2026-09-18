@@ -19,8 +19,11 @@ void main() {
     intDifference = intOperandA - intOperandB;
     IO.println("The product of " + intOperandA + " - " + intOperandB + " is " + intDifference);
 
-    intQuotient = intOperandA % intOperandB;
-    IO.println("The product of " + intOperandA + " % " + intOperandB + " is " + intQuotient);
+    intQuotient = intOperandA / intOperandB;
+    IO.println("The product of " + intOperandA + " / " + intOperandB + " is " + intQuotient);
+
+    intModulo = intOperandA % intOperandB;
+    IO.println("The modulo of " + intOperandA + " % " + intOperandB + " is " + intModulo);
 
     double doubleOperandA = 15.50;
     double doubleOperandB = 12.20;
@@ -29,6 +32,16 @@ void main() {
     double doubleDifference = 0;
     double doubleQuotient = 0;
 
+    doubleSum = doubleOperandA + doubleOperandB;
+    IO.println("The sum of " + doubleOperandA + " + " + doubleOperandB + " is " + doubleSum);
 
+    doubleDifference = doubleOperandA - doubleOperandB;
+    IO.println("The sum of " + doubleOperandA + " - " + doubleOperandB + " is " + doubleDifference);
+
+    doubleProduct = doubleOperandA * doubleOperandB;
+    IO.println("The sum of " + doubleOperandA + " * " + doubleOperandB + " is " + doubleProduct);
+
+    doubleQuotient = doubleOperandA / doubleOperandB;
+    IO.println("The sum of " + doubleOperandA + " / " + doubleOperandB + " is " + doubleQuotient);
 
 }
